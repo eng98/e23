@@ -162,7 +162,6 @@ proxy-groups:
       - 🇯🇵CF99
 rules:
  - DOMAIN-SUFFIX,openai.com,✳ ChatGPT
- - DOMAIN-SUFFIX,chatgpt.duti.tech,✳ ChatGPT
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
