@@ -64,7 +64,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
       - 🇺🇸CFCG
       - 🇭🇰CFHK
       - 🇯🇵CF99
