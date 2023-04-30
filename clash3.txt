@@ -263,12 +263,12 @@ rules:
  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
- - GEOIP,LAN,DIRECT
- - GEOIP,CN,DIRECT
- - RULE-SET,private,DIRECT
- - RULE-SET,reject,REJECT
- - RULE-SET,tld-not-cn,🚀 节点选择
- - RULE-SET,gfw,🚀 节点选择
- - RULE-SET,greatfire,🚀 节点选择
- - RULE-SET,telegramcidr,🚀 节点选择
+ - GEOIP,LAN,DIRECT,no-resolve
+ - GEOIP,CN,DIRECT,no-resolve
+ - RULE-SET,private,DIRECT,no-resolve
+ - RULE-SET,reject,REJECT,no-resolve
+ - RULE-SET,tld-not-cn,🚀 节点选择,no-resolve
+ - RULE-SET,gfw,🚀 节点选择,no-resolve
+ - RULE-SET,greatfire,🚀 节点选择,no-resolve
+ - RULE-SET,telegramcidr,🚀 节点选择,no-resolve
  - MATCH,DIRECT
