@@ -228,8 +228,8 @@ rules:
  - GEOIP,CN,DIRECT
  - RULE-SET,private,DIRECT
  - RULE-SET,reject,REJECT
- - RULE-SET,tld-not-cn,PROXY
- - RULE-SET,gfw,PROXY
- - RULE-SET,greatfire,PROXY
- - RULE-SET,telegramcidr,PROXY
+ - RULE-SET,tld-not-cn,🚀 节点选择
+ - RULE-SET,gfw,🚀 节点选择
+ - RULE-SET,greatfire,🚀 节点选择
+ - RULE-SET,telegramcidr,🚀 节点选择
  - MATCH,DIRECT
