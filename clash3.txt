@@ -225,6 +225,7 @@ rule-providers:
 rules:
  - DOMAIN-SUFFIX,openai.com,✳ ChatGPT,no-resolve
  - DOMAIN-SUFFIX,e23.io,DIRECT,no-resolve
+ - DOMAIN-SUFFIX,v2rayssr.com,🚀 节点选择,no-resolve
  - RULE-SET,private,DIRECT,no-resolve
  - RULE-SET,reject,REJECT,no-resolve
  - RULE-SET,tld-not-cn,🚀 节点选择,no-resolve
