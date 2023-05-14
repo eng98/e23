@@ -11,14 +11,14 @@ proxies:
     type: vless
     server: cg.e23.io
     port: 443
-    uuid: 8b94f1ff-d080-43af-c809-3ae61bd1de94
+    uuid: b2bf6ace-7784-454b-f3bb-c24b70a04c8c
     udp: true
     tls: true
     network: ws
     servername: cg.e23.io # priority over wss host
     # skip-cert-verify: true
     ws-opts:
-      path: "/8b94f1ff-d080-43af-c809-3ae61bd1de94-ray"
+      path: "/c24b70a04c8c"
       headers:
         Host: cg.e23.io
   - name: "🇭🇰CFHK"
