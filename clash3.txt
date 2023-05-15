@@ -32,7 +32,7 @@ proxies:
     servername: qhk.e23.io # priority over wss host
     # skip-cert-verify: true
     ws-opts:
-      path: "/61c22352-e5f2-40fa-fb6e-1b0eeaae52ec-ray"
+      path: "/1b0eeaae52ec"
       headers:
         Host: qhk.e23.io
   - name: "🇯🇵CF99"
