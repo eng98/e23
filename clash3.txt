@@ -258,10 +258,12 @@ rules:
  - DOMAIN,yacd.haishan.me,DIRECT
  - RULE-SET,private,DIRECT
  - RULE-SET,reject,REJECT
- - RULE-SET,lancidr,DIRECT
- - RULE-SET,tld-not-cn,🚀 节点选择,no-resolve
- - RULE-SET,gfw,🚀 节点选择,no-resolve
+ - RULE-SET,icloud,DIRECT
+ - RULE-SET,apple,DIRECT
+ - RULE-SET,google,DIRECT
+ - RULE-SET,proxy,🚀 节点选择,no-resolve
+ - RULE-SET,direct,DIRECT
  - RULE-SET,telegramcidr,🚀 节点选择,no-resolve
  - GEOIP,LAN,DIRECT
  - GEOIP,CN,DIRECT
- - MATCH,DIRECT
+ - MATCH,🚀 节点选择
