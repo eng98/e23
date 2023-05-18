@@ -253,6 +253,7 @@ rules:
  - DOMAIN-SUFFIX,openai.com,✳ ChatGPT,no-resolve
  - DOMAIN-SUFFIX,e23.io,DIRECT,no-resolve
  - DOMAIN-SUFFIX,v2rayssr.com,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,ero-video.net,🚀 节点选择,no-resolve
  - RULE-SET,applications,DIRECT
  - DOMAIN,clash.razord.top,DIRECT
  - DOMAIN,yacd.haishan.me,DIRECT
