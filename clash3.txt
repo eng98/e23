@@ -251,7 +251,7 @@ rule-providers:
 
 rules:
  - DOMAIN-SUFFIX,openai.com,✳ ChatGPT,no-resolve
- - DOMAIN-SUFFIX,e23.io,DIRECT,no-resolve
+ - DOMAIN-SUFFIX,e23.io,DIRECT
  - DOMAIN-SUFFIX,v2rayssr.com,🚀 节点选择,no-resolve
  - RULE-SET,applications,DIRECT
  - DOMAIN,clash.razord.top,DIRECT
