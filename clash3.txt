@@ -259,8 +259,8 @@ rules:
  - RULE-SET,private,DIRECT
  - RULE-SET,reject,REJECT
  - RULE-SET,icloud,DIRECT
- - RULE-SET,apple,DIRECT
- - RULE-SET,google,DIRECT
+ - RULE-SET,apple,🚀 节点选择,no-resolve
+ - RULE-SET,google,🚀 节点选择,no-resolve
  - RULE-SET,proxy,🚀 节点选择,no-resolve
  - RULE-SET,direct,DIRECT
  - RULE-SET,telegramcidr,🚀 节点选择,no-resolve
