@@ -254,8 +254,7 @@ rules:
  - DOMAIN-SUFFIX,openai.com,✳ ChatGPT,no-resolve
  - DOMAIN-SUFFIX,e23.io,DIRECT
  - DOMAIN-SUFFIX,v2rayssr.com,🚀 节点选择,no-resolve
- - DOMAIN-SUFFIX,gstatic.com,🚀 节点选择,no-resolve
- - DOMAIN,services.googleapis.cn,🚀 节点选择,no-resolve
+ - DOMAIN,services.googleapis.cn,🚀 节点选择
  - RULE-SET,applications,DIRECT
  - DOMAIN,clash.razord.top,DIRECT
  - DOMAIN,yacd.haishan.me,DIRECT
