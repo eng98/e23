@@ -257,7 +257,6 @@ rules:
  - RULE-SET,applications,DIRECT
  - DOMAIN,clash.razord.top,DIRECT
  - DOMAIN,yacd.haishan.me,DIRECT
- - DOMAIN,connectivitycheck.gstatic.com,🚀 节点选择,no-resolve
  - DOMAIN,services.googleapis.cn,🚀 节点选择,no-resolve
  - RULE-SET,private,DIRECT
  - RULE-SET,reject,REJECT
