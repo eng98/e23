@@ -260,11 +260,13 @@ rules:
  - DOMAIN,yacd.haishan.me,DIRECT
  - RULE-SET,private,DIRECT
  - RULE-SET,reject,REJECT
- - RULE-SET,icloud,DIRECT
+ - RULE-SET,icloud,🚀 节点选择,no-resolve
  - RULE-SET,apple,🚀 节点选择,no-resolve
  - RULE-SET,google,🚀 节点选择,no-resolve
  - RULE-SET,proxy,🚀 节点选择,no-resolve
  - RULE-SET,direct,DIRECT
+ - RULE-SET,lancidr,DIRECT
+ - RULE-SET,cncidr,DIRECT
  - RULE-SET,telegramcidr,🚀 节点选择,no-resolve
  - GEOIP,LAN,DIRECT
  - GEOIP,CN,DIRECT
