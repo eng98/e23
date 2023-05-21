@@ -4,7 +4,8 @@ mixed-port: 7890
 external-controller: 127.0.0.1:9090
 allow-lan: false
 mode: rule
-log-level: silent
+# silent
+log-level: info
 
 proxies:
   # 下面放入你的节点信息(可以多个)
@@ -260,9 +261,9 @@ rules:
  - DOMAIN,services.googleapis.cn,🚀 节点选择,no-resolve
  - RULE-SET,private,DIRECT
  - RULE-SET,reject,REJECT
- - RULE-SET,icloud,🚀 节点选择,no-resolve
- - RULE-SET,apple,🚀 节点选择,no-resolve
- - RULE-SET,google,🚀 节点选择,no-resolve
+ - RULE-SET,icloud,DIRECT
+ - RULE-SET,apple,DIRECT
+ - RULE-SET,google,DIRECT
  - RULE-SET,proxy,🚀 节点选择,no-resolve
  - RULE-SET,direct,DIRECT
  - RULE-SET,lancidr,DIRECT
